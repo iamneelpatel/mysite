@@ -32,7 +32,10 @@ SECRET_KEY = '1db^0vv14i@!pxi+(=7duy)k29@e#*-e76kgo0+&wy#c6h4+pz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'm4dummies.org',
+    'neelsapp.herokuapp.com',
+        ]
 
 
 # Application definition
