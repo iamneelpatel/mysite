@@ -15,11 +15,12 @@ import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+print(BASE_DIR)
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, 'main/static'),
     )
 
 
@@ -30,12 +31,12 @@ STATICFILES_DIRS = (
 SECRET_KEY = '1db^0vv14i@!pxi+(=7duy)k29@e#*-e76kgo0+&wy#c6h4+pz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+#DEBUG = True
+DEBUG_PROPAGATE_EXCEPTIONS = True
 
 ALLOWED_HOSTS = [
     'www.m4dummies.org',
-    'neelsapp.herokuapp.com',
-]
+        ]
 
 
 # Application definition
