@@ -36,6 +36,7 @@ DEBUG_PROPAGATE_EXCEPTIONS = True
 
 ALLOWED_HOSTS = [
     'www.m4dummies.org',
+    'https://neelsapp.herokuapp.com',
         ]
 
 
