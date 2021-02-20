@@ -33,8 +33,8 @@ SECRET_KEY = '1db^0vv14i@!pxi+(=7duy)k29@e#*-e76kgo0+&wy#c6h4+pz'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'm4dummies.org',
-    'neelsapp.herokupp.com',
+    'www.m4dummies.org',
+    'neelsapp.herokuapp.com',
 ]
 
 
