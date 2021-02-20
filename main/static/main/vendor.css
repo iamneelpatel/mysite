@@ -1,3 +1,29 @@
+
+
+
+
+
+
+/**
+ * =================================================================== 
+ *
+ *  Kards v1.0 Vendor/Third Party CSS 
+ *  url: styleshout.com
+ *  03-01-2016
+ *  ------------------------------------------------------------------
+ *  TOC:
+ *  01. Core Owl Carousel CSS File
+ *  02. Magnific Popup CSS
+ *
+ * =================================================================== 
+ */
+
+/* 
+ *  01. Core Owl Carousel CSS File
+ *	 v1.3.3
+ */
+
+/* clearfix */
 .owl-carousel .owl-wrapper:after {
 	content: ".";
 	display: block;
@@ -47,9 +73,7 @@
 }
 
 /* mouse grab icon */
-.grabbing {
-	cursor: url(grabbing.png) 8 8, move;
-}
+
 
 /* fix */
 .owl-carousel .owl-wrapper, .owl-carousel .owl-item {
@@ -756,3 +780,5 @@ img.mfp-img {
 	right: 0;
 	padding-top: 0;
 }
+
+/*# sourceMappingURL=vendor.css.map */
