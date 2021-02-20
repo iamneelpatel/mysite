@@ -30,7 +30,7 @@ STATICFILES_DIRS = (
 SECRET_KEY = '1db^0vv14i@!pxi+(=7duy)k29@e#*-e76kgo0+&wy#c6h4+pz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'www.m4dummies.org',
