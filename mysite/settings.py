@@ -34,10 +34,7 @@ SECRET_KEY = '1db^0vv14i@!pxi+(=7duy)k29@e#*-e76kgo0+&wy#c6h4+pz'
 DEBUG = False
 
 
-ALLOWED_HOSTS = [
-    'www.m4dummies.org',
-    'https://neelsapp.herokuapp.com',
-        ]
+ALLOWED_HOSTS = ['localhost', '127.0.0.1',]
 
 
 # Application definition
